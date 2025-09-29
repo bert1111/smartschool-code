@@ -36,7 +36,7 @@ class CourseGraphic:
 @dataclass
 class ResultGraphic:
     """Represents the graphical part of a result."""
-    color: Literal["green", "red", "yellow", "blue"]
+    color: Literal["green", "red", "yellow", "blue", "orange"]
     symbol: Optional[str] = None  # Optioneel gemaakt
     description: Optional[str] = ""  # Toegevoegd optioneel attribuut
 
